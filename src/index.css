@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{margin: 0;padding: 0; font-family: 'Noto Sans KR', sans-serif;}
+ul{list-style: none;}
+a{text-decoration: none;color: #211b15;}
+img{vertical-align: middle;}
+
+@layer components{
+  .sudo{
+    @apply [&:not(:last-child)]:after:absolute [&:not(:last-child)]:after:w-[1px] [&:not(:last-child)]:after:h-3 [&:not(:last-child)]:after:bg-gray-400  [&:not(:last-child)]:after:top-1 [&:not(:last-child)]:after:right-[-16px]
+  }
+}
+
+.bgi{
+  background-image: url('../public/images/m_bg.png');
+  position: absolute;
+  /* top: 140px; */
+  left: 100px;
+}
+.bgi2{
+  
+}
