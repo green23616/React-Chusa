@@ -1,5 +1,5 @@
 <h1>추사기념관</h1>
-<a href="https://lottecloning.vercel.app/" target="_blank"><img src="/public/chusa.png" alt="chusa"></a>
+<a href="https://lottecloning.vercel.app/" target="_blank"><img src="/public/images/chusa.png" alt="chusa"></a>
 <p>기술 : React, Javascript, TailwindCSS</p>
 <p>작업기간 : 1주</p>
 <p>기여도 : 100%</p>
